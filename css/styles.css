@@ -1,3 +1,67 @@
+body{
+  background-image: url("../img/got-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h1 {
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  font-size:74px;
   text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  padding-top: 32px;
+  padding-bottom: 0.5em;
+  color: #d60f0f;
+}
+h4 {
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  font-size: 160px;
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #F3F3F3;
+}
+
+#key {
+  text-align: right;
+  color: #F3F3F3;
+}
+
+.well {
+  background-color: #ffffff88;
+  border-width: 0px;
+}
+
+.well>* {
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.radio>label{
+  margin: 0.5em;
+  font-size: 30px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+.question {
+  font-size: 20px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+button {
+  height: 80px;
+  width: 1100px;
+  display: block;
+  margin: auto;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 28px;
+}
+
+#result-text {
+  display: none;
+}
+
+img {
+  display: none;
+  margin: auto;
+  height: 50%;
+  width: 50%;
 }

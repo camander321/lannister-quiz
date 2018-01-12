@@ -3,16 +3,279 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Cinzel+Decorative|Jim+Nightshade" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Lannister Quiz</title>
   </head>
   <body>
-    <div class="contianer">
+    <div class="container">
       <h1>Which Lannister are YOU?</h1>
 
-    </div>
+      <div class="row">
+
+          <p id="key">1 = Strongly Disagree | 2 = Disagree | 3 = Neutral | 4 = Agree | 5 = Strongly Agree</p>
+
+      </div>
+
+      <form class="form1">
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">1. I prefer to be the one in control during group/team events/projects.</span></label>
+          </div>
+
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question1" value="tyrion" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question1" value="jamie">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question1" value="joffery">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question1" value="cercei">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question1" value="tywin">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">2. If I saw an animal laying on the side of the highway from afar, I would pull over and see if there’s anything I could do.</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question2" value="tywin" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question2" value="joffery">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question2" value="cercei">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question2" value="jamie">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question2" value="tyrion">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">3. It’s usually pretty difficult to really offend me.</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question3" value="tywin" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question3" value="joffery">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question3" value="cercei">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question3" value="jamie">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question3" value="tyrion">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">4. in a relationship, I wouldn’t consider myself to be overbearing or insecure.</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question4" value="tyrion" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question4" value="jamie">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question4" value="cercei">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question4" value="joffery">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question4" value="tywin">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">5. If someone has hurt me or someone I love, I will do something in retaliation.</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question5" value="tywin" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question5" value="tyrion">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question5" value="cercei">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question5" value="jamie">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question5" value="joffery">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">6. If I really want something from someone, I’m usually able to get it.</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question6" value="jamie" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question6" value="tyrion">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question6" value="joffery">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question6" value="cercei">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question6" value="tywin">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">7. usually hide my pain when I’m in public.</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question7" value="joffery" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question7" value="jamie">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question7" value="cercei">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question7" value="tyrion">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question7" value="tywin">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row well">
+          <div class="col-md-8">
+            <label for="question1"><span class="question">8.  I consider myself to be caring to others.</span></label>
+          </div>
+          <div class="col-md-4">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question8" value="joffery" checked>
+                1
+              </label>
+              <label>
+                <input type="radio" name="question8" value="tywin">
+                2
+              </label>
+              <label>
+                <input type="radio" name="question8" value="cercei">
+                3
+              </label>
+              <label>
+                <input type="radio" name="question8" value="jamie">
+                4
+              </label>
+              <label>
+                <input type="radio" name="question8" value="tyrion">
+                5
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" name="button">SUBMIT</button>
+
+      </form>
+
+      </div>
+
+      <div class="result-text">
+        <h4>You Are: <span id="result"></span></h4>
+        <img src="img/tywin.jpg" alt="tywin" id="Tywin-img">
+        <img src="img/cersei.png" alt="cersei" id="Cercei-img">
+        <img src="img/jamie.jpg" alt="jamie" id="Jamie-img">
+        <img src="img/tyrion.png" alt="tyrion" id="Tyrion-img">
+        <img src="img/joffrey.png" alt="joffrey" id="Joffery-img">
+      </div>
+
 
   </body>
 </html>
